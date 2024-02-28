@@ -1,0 +1,105 @@
+.body-class {
+    background-color: lightblue;
+}
+
+.header-class{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.nav-class{
+    background-color:pink;
+}
+
+.title-class{
+    background-color:orange;
+}
+.section-title-class{
+    background-color:brown;
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+}
+
+.text-class{
+    background-color:green;
+    color: rgb(9, 9, 12);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.image-class{
+    background-color:darkred;
+    color:black;
+}
+
+.form-class{
+    background-color:rgb(0, 128, 107);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
+}
+
+.button-class{
+    background-color:white;
+}
+.footer-class{
+    background-color:teal;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  h1 {
+    color: rgb(9, 9, 12);
+    font-family: verdana;
+    font-size: 150%;
+  }
+  p {
+    color: rgb(15, 4, 4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+  
+  .fact-section-class{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
